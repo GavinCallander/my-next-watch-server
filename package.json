@@ -1,0 +1,11 @@
+{
+  "name": "my-next-watch-server",
+  "version": "1.0.0",
+  "description": "Server-side code for MyNextWatch web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gavin Callander",
+  "license": "MIT"
+}
