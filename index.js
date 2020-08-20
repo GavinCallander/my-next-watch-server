@@ -21,8 +21,9 @@ APP.use('/auth', EXPRESS_JWT({
         { url: '/auth/login', methods: ['POST'] },
         { url: '/auth/signup', methods: ['POST'] }
     ]
-}), require('./controlles/auth'));
+}), require('./controllers/auth'));
 
 APP.listen(process.env.PORT, () => {
+    console.log(`chilling on port ${process.env.PORT}`)
     ROWDY_RESULTS.print();
 });
